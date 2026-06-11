@@ -1,0 +1,32 @@
+
+.top-bar {
+  flex-direction: column;
+  width: 100%;
+  gap: 1.5rem;
+}
+
+.top-bar input {
+  width: 100%;
+  padding: 1.3rem 5rem 1.3rem 2rem;
+}
+
+.top-bar button {
+  width: 100%;
+}
+
+#main-container {
+  width: 95%;
+}
+
+.task{
+    padding: 0.5rem;
+}
+
+.task-btns{
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.task-btns button{
+    width: 100%;
+}

@@ -1,0 +1,8 @@
+.top-bar {
+  width: 100%;
+  gap: 1.5rem;
+}
+
+#main-container{
+    width: 70%;
+}
