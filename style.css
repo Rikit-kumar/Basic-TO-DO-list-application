@@ -100,11 +100,14 @@ input:focus {
   padding: 1.5rem;
   background-color: #c5e2e6;
   border-radius: 0.7rem;
+  gap: 1rem;
 }
 
 .task h3 {
   font-size: clamp(1.2rem, 3vw, 1.3rem);
   font-weight: 400;
+  flex: 1;
+  word-break: break-word;
 }
 
 .task-btns {
@@ -112,6 +115,7 @@ input:focus {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  flex-shrink: 0;
 }
 
 .task-btns button {
